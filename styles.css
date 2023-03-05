@@ -251,3 +251,20 @@ h1 {
 .error-window img {
   width: 300px;
 }
+
+@media only screen and (max-width: 600px) {
+  .parameter-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .parameter {
+    width: 70%;
+    max-width: 300px;
+  }
+
+  .form-container input {
+    width:90%;
+    max-width: 550px;
+  }
+}
